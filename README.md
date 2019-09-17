@@ -6,6 +6,7 @@ Simple example how to make prerender with Svelte
 
 - yarn
 - yarn build
+- check `public/index.html`
 
 ## License
 
