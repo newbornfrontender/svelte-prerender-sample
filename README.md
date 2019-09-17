@@ -2,7 +2,7 @@
 
 Simple example how to make prerender with Svelte
 
-## Commands
+## Sequence of actions
 
 - yarn
 - yarn build
