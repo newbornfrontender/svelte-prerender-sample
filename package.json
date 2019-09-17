@@ -1,0 +1,27 @@
+{
+  "name": "svelte-prerender-sample",
+  "version": "1.0.0",
+  "repository": "git@github.com:newbornfrontender/svelte-prerender-sample.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@prerenderer/prerenderer": "^0.7.2",
+    "@prerenderer/renderer-puppeteer": "^0.2.0",
+    "prettier": "^1.18.2",
+    "prettier-plugin-svelte": "^0.7.0",
+    "rollup": "^1.21.4",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.1.0",
+    "svelte": "^3.12.1"
+  },
+  "scripts": {
+    "format": "prettier **/*.{svelte,html,css,js,json,md} --write",
+    "build": "rollup -c"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
